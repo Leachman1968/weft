@@ -34,6 +34,7 @@
 			{ href: "/usage", label: "Usage" },
 			{ href: "https://weavemind.ai/docs", label: "Docs" },
 			{ href: "/extension", label: "Extension" },
+			{ href: "https://github.com/WeaveMindAI/weft", label: "GitHub" },
 		];
 		if (isCloudMode()) {
 			items.push({ href: "/files", label: "Files" });

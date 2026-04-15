@@ -34,29 +34,29 @@
 	<Dialog.Content class="max-w-md">
 		<Dialog.Header class="text-center pb-2">
 			<Dialog.Title class="text-2xl">Welcome to WeaveMind! 🎉</Dialog.Title>
-			<p class="text-sm text-muted-foreground mt-1">You're an early tester. Things might break!</p>
+			<p class="text-sm text-muted-foreground mt-1">This is a very early demo. Expect rough edges!</p>
 		</Dialog.Header>
 
 		<div class="space-y-3 py-3">
 			<div class="flex items-start gap-3">
-				<span class="text-lg">🆓</span>
+				<span class="text-lg">🧪</span>
 				<div class="text-sm">
-					<p><strong>Free during early access</strong> (bring your own API keys)</p>
-					<p class="text-muted-foreground text-xs mt-0.5">Some rate limits to keep servers happy, but no charges for now.</p>
+					<p><strong>Early demo.</strong> The node catalog is limited and things may break.</p>
+					<p class="text-muted-foreground text-xs mt-0.5">I'm building fast based on feedback. Missing something? Tell me on Discord!</p>
+				</div>
+			</div>
+			<div class="flex items-start gap-3">
+				<span class="text-lg">�</span>
+				<div class="text-sm">
+					<p><strong>You get $5 free credits.</strong> Tangle (the AI builder) uses Sonnet/Opus which burn through credits fast.</p>
+					<p class="text-muted-foreground text-xs mt-0.5">I don't have preferential pricing with Anthropic yet. Working on fine-tuning smaller models to reduce costs.</p>
 				</div>
 			</div>
 			<div class="flex items-start gap-3">
 				<span class="text-lg">🔑</span>
 				<div class="text-sm">
-					<p><strong>Everything is encrypted at rest (even your Tangle conversations)!</strong> But we're moving fast.</p>
+					<p><strong>Everything is encrypted at rest</strong> (even your Tangle conversations).</p>
 					<p class="text-muted-foreground text-xs mt-0.5">We recommend using dedicated API keys for testing, or rotate your credentials.</p>
-				</div>
-			</div>
-			<div class="flex items-start gap-3">
-				<span class="text-lg">🧱</span>
-				<div class="text-sm">
-					<p><strong>Limited nodes for now.</strong> Missing something? DM me on Discord!</p>
-					<p class="text-muted-foreground text-xs mt-0.5">I'm building based on your use cases.</p>
 				</div>
 			</div>
 			<div class="flex items-start gap-3">
@@ -68,6 +68,17 @@
 		</div>
 
 		<div class="flex flex-col gap-2 pt-2">
+			<a 
+				href="https://github.com/WeaveMindAI/weft" 
+				target="_blank" 
+				rel="noopener noreferrer"
+				class="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-md bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition-colors"
+			>
+				<svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+					<path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+				</svg>
+				Star us on GitHub
+			</a>
 			<a 
 				href="https://discord.gg/FGwNu6mDkU" 
 				target="_blank" 
